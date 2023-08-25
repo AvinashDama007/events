@@ -1,0 +1,132 @@
+/* Reset default margin and padding for elements */
+body, h1, h2, h3, p, ul, li, table, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.admin-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.admin-links a {
+    text-decoration: none;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 10px;
+}
+
+.user-list li {
+    flex: 1 1 250px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ccc;
+}
+/* CSS for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the table header */
+thead {
+    background-color: #f2f2f2;
+}
+
+/* Style for alternating rows */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for table header cells */
+th {
+    background-color: #4285f4;
+    color: white;
+}
+
+/* users.php */
+
+.user-info button[name="approve"]{
+    background-color: green;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.user-info button[name="reject"]{
+    background-color: red;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+}
